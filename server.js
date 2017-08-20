@@ -17,6 +17,18 @@ app.get('/set',function(req, res){
    res.sendFile(path.join(__dirname, 'ui', 'set_portal.html')); 
 });
 
+app.get('/home',function(req, res){
+   res.sendFile(path.join(__dirname, 'ui', 'home.html')); 
+});
+
+app.get('/scheme',function(req, res){
+   res.sendFile(path.join(__dirname, 'ui', 'on_scheme.html')); 
+});
+
+app.get('/set',function(req, res){
+   res.sendFile(path.join(__dirname, 'ui', 'details.html')); 
+});
+
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
