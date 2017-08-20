@@ -25,7 +25,7 @@ app.get('/scheme',function(req, res){
    res.sendFile(path.join(__dirname, 'ui', 'on_scheme.html')); 
 });
 
-app.get('/set',function(req, res){
+app.get('/details',function(req, res){
    res.sendFile(path.join(__dirname, 'ui', 'details.html')); 
 });
 
