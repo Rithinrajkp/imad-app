@@ -13,6 +13,10 @@ app.get('/article-one',function(req, res){
    res.sendFile(path.join(__dirname, 'ui', 'article_one.html')); 
 });
 
+app.get('/set',function(req, res){
+   res.sendFile(path.join(__dirname, 'ui', 'set_portal.html')); 
+});
+
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
