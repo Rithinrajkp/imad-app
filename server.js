@@ -48,11 +48,11 @@ app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 
-app.get('/ui/a4.png', function (req, res) {
+app.get('/a4.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'a4.png'));
 });
 
-app.get('/ui/i2.png', function (req, res) {
+app.get('/i2.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'i2.png'));
 });
 
