@@ -1,0 +1,96 @@
+<?xml version="1.0"encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://wwww.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http:www.w3.org/1999/xhtml"lang="en">
+   <head>
+      <title>login</title>
+        <style type="text/css">
+        body 
+        {
+            background-image: url("a2.jpg");
+            background-size:1400px 1000px;
+            background-repeat:no-repeat;
+        }
+       p{
+        color:yellow;
+        font-weight:bold;
+        }
+        </style>
+       
+         <style type="text/css">
+        h2 
+        {
+ color:beige ;
+        }
+        </style>
+       <script type="text/javascript">
+<!--
+function validate()
+ {
+  if(document.myform.username.value=="")
+   {
+    alert('Plz enter ur name');
+    return false;
+   }
+   else 
+    if(document.myform.pass.value=="")
+    {
+        alert('plz enter ur pass');
+        return false;
+    }
+    else
+    {
+   return true;
+    }
+ }
+
+//-->
+</script>
+       
+      <style>
+       body {font-family: Verdana, sans-serif; font-size:0.8em;}
+       header, nav, section, article, footer
+       {border:1px solid grey; margin:5px; padding:8px;}
+       nav ul {margin:0; padding:0;}
+       nav ul li {display:inline; margin:5px;}
+      </style>
+      
+     
+ </head>
+ <body onload="registerevents();"link="red" alink="blue" vlink="red">
+
+    <style type="text/css">
+        h1 {
+            font-size: 50pt;
+            color:ivory ;
+            font-family: 'ar destine';
+            font-weight: bold;
+            text-decoration: overline;
+        }
+    </style>
+    <marquee direction="across">
+        <h1 align="left">
+            USER NEEDS TO LOGIN HERE
+
+        </h1>
+    </marquee>
+   
+   <form name="myform" id="myform"method="get" onsubmit="return validate();">
+          <fieldset>
+              <legend><h2>Login Details</h2></legend><br/>
+              <p>Name:<br/><br/>
+       <input type="text" name="username"id="username" size="25" maxlength="25"/><br/><br/>
+                  <p>Password:<br/><br/>
+       <input type="password" name="pass"id="pass" size="25" maxlength="25"/><br/><br/>
+
+   
+      <a href="register_form.html">for registeration click here............</a>
+     </fieldset>
+     <p align="center">
+       <a href="2Main.html"target="_blank">login</a>
+       <input type="reset"value="reset"/>
+         </form>
+     <nav>
+      <a href="passrecovery.html">forgot password click here............</a>
+     </nav>
+</body>
+</html>
