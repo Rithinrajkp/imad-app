@@ -21,7 +21,7 @@ app.get('/home',function(req, res){
    res.sendFile(path.join(__dirname, 'ui', 'home.html')); 
 });
 
-app.get('/Inst',function(req, res){
+app.get('/inst',function(req, res){
    res.sendFile(path.join(__dirname, 'ui', 'on_scheme.html')); 
 });
 
