@@ -37,6 +37,9 @@ app.get('/aboutus',function(req, res){
    res.sendFile(path.join(__dirname, 'ui', 'aboutus.html')); 
 });
 
+app.get('/login',function(req, res){
+   res.sendFile(path.join(__dirname, 'ui', 'login.html')); 
+});
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
