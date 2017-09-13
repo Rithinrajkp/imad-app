@@ -17,10 +17,13 @@ app.get('/set',function(req, res){
    res.sendFile(path.join(__dirname, 'ui', 'set_portal.html')); 
 });
 
-app.get('/index1.html',function(req, res){
-   res.sendFile(path.join(__dirname, 'ui', 'index1.html')); 
+app.get('/adminindex.html',function(req, res){
+   res.sendFile(path.join(__dirname, 'ui', 'adminindex.html')); 
 });
 
+app.get('/adminlogin.html',function(req, res){
+   res.sendFile(path.join(__dirname, 'ui', 'adminlogin.html')); 
+});
 app.get('/inst',function(req, res){
    res.sendFile(path.join(__dirname, 'ui', 'on_scheme.html')); 
 });
