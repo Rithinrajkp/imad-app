@@ -18,7 +18,7 @@ app.get('/set',function(req, res){
 });
 
 app.get('/home',function(req, res){
-   res.sendFile(path.join(__dirname, 'ui', 'home.html')); 
+   res.sendFile(path.join(__dirname, 'ui', 'index.php')); 
 });
 
 app.get('/inst',function(req, res){
