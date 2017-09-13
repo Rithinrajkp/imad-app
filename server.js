@@ -17,8 +17,8 @@ app.get('/set',function(req, res){
    res.sendFile(path.join(__dirname, 'ui', 'set_portal.html')); 
 });
 
-app.get('/index.php',function(req, res){
-   res.sendFile(path.join(__dirname, 'ui', 'index.php')); 
+app.get('/index1.html',function(req, res){
+   res.sendFile(path.join(__dirname, 'ui', 'index1.html')); 
 });
 
 app.get('/inst',function(req, res){
