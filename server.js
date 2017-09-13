@@ -24,6 +24,11 @@ app.get('/adminindex.html',function(req, res){
 app.get('/adminlogin.html',function(req, res){
    res.sendFile(path.join(__dirname, 'ui', 'adminlogin.html')); 
 });
+
+app.get('/seet.sql',function(req, res){
+   res.sendFile(path.join(__dirname, 'ui', 'seet.sql')); 
+});
+
 app.get('/inst',function(req, res){
    res.sendFile(path.join(__dirname, 'ui', 'on_scheme.html')); 
 });
